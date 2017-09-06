@@ -2,7 +2,7 @@
 
 ## Reconscan.py
 
-This script is based on the script by [Mike Czumak](http://www.securitysift.com/offsec-pwb-oscp/). But it is heavily rewritten, some things have been added, other stuff has been removed. The script is written as a preparation for the OSCP exam. It was never meant to be a general script. So if you want to use it you have to make sure to fix all the hardcoded paths. The script is multithreaded and can be run against several hosts at once.
+It is heavily rewritten, some things have been added, other stuff has been removed. The script is written as a preparation for the OSCP exam. It was never meant to be a general script. So if you want to use it you have to make sure to fix all the hardcoded paths. The script is multithreaded and can be run against several hosts at once.
 
 The script is invoked like this:
 
@@ -21,5 +21,3 @@ I created two templates that I used as a guide for every machine I attacked. One
 The templates are written in markdown. But I never actually rendered them, so I don't really know how they look like rendered. They are probably pretty messy. I also used them together with markdown syntax-highlightning in my editor, so it became easy to navigate the files.
 
 The templates have a few keywords in the, like **INSERTIPADDRESS**. These are hooks that are read by reconscan.py, and it insert the target machine IP-address automatically. Some other stuff are also inserted automatically, like the a basic nmap-scan. And nikto-scan.
-
-Wherever there are references to a book. This is the book: https://bobloblaw.gitbooks.io/security/content/
